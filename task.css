@@ -1,0 +1,314 @@
+body {
+    margin: auto;
+    border: 12px solid;
+    border-image: linear-gradient(to right, red, red, red, rgb(62, 1, 1));
+    border-image-slice: 1;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+
+
+  }
+
+  .separate {
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+
+  }
+
+  .fdash {
+    padding-left: 50px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 75px 10px 20px;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+
+    position: fixed;
+
+  }
+
+  li {
+    float: left;
+    font-weight: 1000;
+    font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
+  }
+
+  li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 15px 0px 0px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  #logo1 {
+
+    float: left;
+
+  }
+
+
+  .btn.bell {
+
+    box-shadow: none;
+
+    background-color: transparent;
+
+    background-image: none;
+
+    color: #ED1E25;
+
+    text-shadow: none;
+
+    margin: auto;
+    padding: 60px 20px 0px 70px;
+
+  }
+
+  .d-flex {
+
+    height: 10px;
+
+    width: 10px;
+
+    background-color: #000;
+
+    border-radius: 5px;
+
+    margin: 7px 5px;
+
+  }
+
+  .d-flex {
+
+    margin: auto 24px;
+
+    font-size: 16px;
+
+  }
+
+
+  .bell:hover,
+
+  .bell:active,
+
+  .bell:focus {
+
+    background-image: none !important;
+
+    box-shadow: none !important;
+
+    background-color: transparent !important;
+
+    outline: none;
+
+  }
+
+
+  .btn.bell {
+    box-shadow: none;
+    background-color: transparent !important;
+    background-image: none !important;
+    color: #ED1E25;
+    border: none !important;
+    margin-right: 0;
+    text-shadow: none;
+    margin: auto;
+    position: relative;
+  }
+
+  .bell .fas.fa-bell {
+    color: #ed1e25 !important;
+    position: absolute !important;
+    top: 12px !important;
+    left: 30px !important;
+    font-size: 16px;
+  }
+
+
+  .btn.bell.note:hover {
+    background-color: transparent !important;
+  }
+
+  #logo2 {
+    float: right;
+
+    height: 42px;
+    width: auto;
+    margin-right: 50px;
+
+  }
+
+  .btn {
+    float: left;
+  }
+
+  footer {
+    margin: 600px 0px 0px 0px;
+  }
+
+
+
+  .topic {
+    border-bottom-width: 1px;
+    border-bottom-color: #d9d9d9;
+    border-bottom-style: solid;
+  }
+
+  .upper {
+    padding: 20px 40px 30px 40px;
+  }
+
+  .email {
+    padding: 15px 40px 30px 60px;
+    text-decoration: none;
+  }
+
+  .phone {
+    padding: 0px 40px 30px 60px;
+    text-decoration: none;
+  }
+
+  .middle {
+    padding-top: 15px;
+    padding-left: 0px;
+    text-decoration: none;
+  }
+
+
+  footer {
+    width: 100%;
+
+    bottom: 0;
+    left: 0;
+    background: #111;
+  }
+
+  footer .content {
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  footer .content p,
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer .content .side {
+    width: 20%;
+    transition: all 0.4s ease;
+  }
+
+  footer .content .topic {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+
+  }
+
+  footer .content p {
+    text-align: justify;
+  }
+
+  footer .content .lower .topic {
+    margin: 5px 0 5px 0;
+  }
+
+  footer .content .lower i {
+    padding-right: 16px;
+  }
+
+  footer .content .middle {
+    padding-left: 40px;
+  }
+
+  footer .content .middle a {
+    line-height: 20px;
+  }
+
+
+
+  footer .content .social a {
+    font-size: 25px;
+    height: 40px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 60px;
+    background: white;
+
+    border: 2px solid #222222;
+    margin: 10px 5px 0 0;
+    transition: all 0.3s ease;
+
+
+  }
+
+  .content .social a:hover {
+    border-color: #eb2f06;
+  }
+
+  footer .bottom {
+    width: 100%;
+    text-align: right;
+    color: #d9d9d9;
+    padding: 0 40px 5px 0;
+  }
+
+  footer .bottom a {
+    color: #eb2f06;
+  }
+
+  footer a {
+    transition: all 0.3s ease;
+  }
+
+  footer a:hover {
+    color: #eb2f06;
+  }
+
+  @media (max-width:1100px) {
+    footer .content .middle {
+      padding-left: 20px;
+    }
+  }
+
+  @media (max-width:950px) {
+    footer .content .side {
+      width: 100%;
+    }
+
+    .content .right {
+      margin-top: 40px;
+    }
+  }
+
+  @media (max-width:560px) {
+    footer {
+      position: relative;
+    }
+
+    footer .content .side {
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    footer .content .middle {
+      padding-left: 0;
+    }
+  }
